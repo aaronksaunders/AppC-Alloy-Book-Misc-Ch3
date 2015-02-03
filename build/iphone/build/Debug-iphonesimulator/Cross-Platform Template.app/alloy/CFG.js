@@ -1,1 +1,0 @@
-/Users/aaronksaunders/Documents/workspace/wiley/AlloyAppTemplate/Resources/iphone/alloy/CFG.js
