@@ -9,20 +9,25 @@
 	layout: "vertical"
 },
 ".inputField": {
-	borderWidth: 1,
 	paddingLeft : 10,
 	paddingRight: 10,
-	borderColor : 'black',
 	width: Titanium.UI.FILL,
-	height: 40
+	height: 40,
+	color : 'black'
+},
+".inputField[platform=ios]": {
+	borderWidth: 1,
+	borderColor : 'black',
+},
+".inputButton[platform=ios]": {
+	borderWidth: 1,
+	borderColor : 'blue',
+	color : 'blue',
 },
 ".inputButton": {
 	top: 30,
-	borderWidth: 1,
 	paddingLeft : 10,
 	paddingRight: 10,
-	borderColor : 'blue',
-	color : 'blue',
 	width: Titanium.UI.FILL,
 	height: 40
 }

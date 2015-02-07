@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Define a theme using the AppCompat.Light theme as a base theme -->
+	<style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
+		<item name="android:windowBackground">@drawable/background</item>
+	</style>
+	<style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
+		<item name="android:editTextStyle">@style/editText</item>
+	</style>
+	<!-- Overrides the default cursor color -->
+	<style name="editText" parent="@android:style/Widget.EditText">
+		<item name="android:textCursorDrawable">@null</item>
+	</style>
+</resources>
