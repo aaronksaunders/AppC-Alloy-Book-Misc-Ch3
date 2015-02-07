@@ -1,4 +1,29 @@
-".container" : {
- 	backgroundColor: "#fff",
- 	//orientationModes: [Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT]
+".container": {
+	backgroundColor: "#fff"
 },
+".inputContainer": {
+	left: "10",
+	right: "10",
+	top: "100",
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+".inputField": {
+	borderWidth: 1,
+	paddingLeft : 10,
+	paddingRight: 10,
+	borderColor : 'black',
+	width: Titanium.UI.FILL,
+	height: 40
+},
+".inputButton": {
+	top: 30,
+	borderWidth: 1,
+	paddingLeft : 10,
+	paddingRight: 10,
+	borderColor : 'blue',
+	color : 'blue',
+	width: Titanium.UI.FILL,
+	height: 40
+}
+

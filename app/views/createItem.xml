@@ -6,5 +6,10 @@
 		<RightNavButtons  platform="ios">
 			<Button systemButton="Ti.UI.iPhone.SystemButton.DONE" onClick="closeWindow" />
 		</RightNavButtons>
+		<View class="inputContainer">
+			<TextField id="makeText" hintText="Enter Car Make" class="inputField"></TextField>
+			<TextField id="modelText" hintText="Enter Car Model" top="10dp"  class="inputField"></TextField>
+			<Button id="saveBtn"  class="inputButton" onClick="saveItem">Save Item</Button>
+		</View>
 	</Window>
 </Alloy>

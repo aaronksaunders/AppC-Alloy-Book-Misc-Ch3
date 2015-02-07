@@ -21,3 +21,33 @@ function doOpen(evt) {
 $.createItemWindow.addEventListener("close", function() {
 	$.destroy();
 });
+
+/**
+ * when the user clicks the button, take action to save the item
+ *
+ * @param {Object} _evt
+ */
+function saveItem(_evt) {
+	console.log("clicked save item " + $.makeText.value + " " + $.modelText.value);
+
+	var carsCollection = Alloy.Collections.instance("cars");
+
+	// we are adding the item to the collection, but want to add a listener to
+	// the collection such that everytime an item is added, save that item also
+	carsCollection.on("add", function onAddSave(_model) {
+		_model.save();
+
+		// remove the listener
+		carsCollection.off("add", onAddSave);
+	});
+
+	// because of binding, the list view will update automatically
+	carsCollection.add({
+		make : $.makeText.value,
+		model : $.modelText.value
+	});
+
+	// close the window
+	closeWindow();
+
+}
