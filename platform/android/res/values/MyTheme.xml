@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!-- Define a theme using the AppCompat.Light theme as a base theme -->
-	<style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
+	<style name="Theme.Titanium" parent="android:Theme">
 		<item name="android:windowBackground">@drawable/background</item>
 	</style>
 	<style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
