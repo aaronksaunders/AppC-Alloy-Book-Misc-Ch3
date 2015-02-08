@@ -1,5 +1,6 @@
 ".container": {
-	backgroundColor: "#fff"
+	backgroundColor: "#fff",
+	theme : "Theme.AppCompat.Light"
 },
 ".inputContainer": {
 	left: "10",
