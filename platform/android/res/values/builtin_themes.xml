@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- Cursor in text field -->
+	<style name="Theme.Mdnote" parent="Theme.AppCompat">
+		<item name="android:editTextStyle">@style/editText</item>
+	</style>
+	<style name="editText" parent="@android:style/Widget.Holo.Light.EditText">
+		<item name="android:textCursorDrawable">@null</item>
+	</style>
+	<!-- ### -->
+</resources>

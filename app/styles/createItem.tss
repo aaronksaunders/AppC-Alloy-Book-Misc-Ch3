@@ -1,6 +1,6 @@
 ".container": {
 	backgroundColor: "#fff",
-	theme : "Theme.AppCompat.Light"
+	//theme : "Theme.AppCompat.Light"
 },
 ".inputContainer": {
 	left: "10",
@@ -18,7 +18,7 @@
 },
 ".inputField[platform=ios]": {
 	borderWidth: 1,
-	borderColor : 'black',
+	borderColor : 'grey',
 },
 ".inputButton[platform=ios]": {
 	borderWidth: 1,

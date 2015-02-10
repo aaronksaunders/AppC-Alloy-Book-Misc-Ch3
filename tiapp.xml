@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.crossplatformtemplate</id>
+    <id>com.ci.sampleAppChpt4</id>
     <name>Cross-Platform Template</name>
     <version>1.0</version>
     <publisher>not specified</publisher>
-    <url>www.clearlyinnovative.com</url>
+    <url>http://www.clearlyinnovative.com</url>
     <description>not specified</description>
     <copyright>not specified</copyright>
     <icon>appicon.png</icon>
@@ -40,8 +40,7 @@
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest>
-            <application  android:hardwareAccelerated="true" android:theme="@style/Theme.AppCompat.Light"/>
-            <!-- <application android:theme="@style/Dark"/> -->
+            <application android:theme="@style/Theme.Mdnote"/>
             <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
         </manifest>
     </android>
@@ -55,6 +54,7 @@
     </mobileweb>
     <modules>
         <module platform="android">com.alcoapps.actionbarextras</module>
+        <module platform="android">com.rkam.swiperefreshlayout</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>

@@ -5,26 +5,28 @@ function transform(model) {
 	//convert the model to a JSON object
 	var carObject = model.toJSON();
 	var output = {
-		"title" : carObject.model + " by " + carObject.make,
+		"title" : carObject.model + " by " + carObject.make ,
 		"id" : model.cid
 	};
-
-	console.log(output);
 	return output;
 }
 
 //show only cars made by Honda
 function filter(collection) {
-	return collection.where({
-		make : "Honda"
-	});
+	if (false) {
+		return collection.where({
+			make : "Honda"
+		});
+	} else {
+		return collection.models;
+	}
 }
 
 //this is an event listener to ensure that the TalbleView bindings are cleaned up
 //correctly and no memory leaks are left
 
 //Free the model-view data binding resources when the view-controller closes
-$.getView().addEventListener("close", function() {
+$.listContainer.addEventListener("close", function() {
 	$.destroy();
 });
 
@@ -46,3 +48,22 @@ $.table.addEventListener('click', function(_event) {
 	Alloy.Globals.openWindow(detailWindowController.getView());
 
 });
+
+/**
+ * called when the pull event happens
+ * 
+ * @param {Object} e
+ */
+function myRefresher(e) {
+	
+	// add a new model to the collection
+	Alloy.Collections.cars.create({
+		model :"Refresh Model",
+		make : "Refresh " + new Date()
+	});
+	
+	// hide the icon..
+	e.hide();
+}
+
+

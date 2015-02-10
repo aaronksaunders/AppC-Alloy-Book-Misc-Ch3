@@ -1,8 +1,12 @@
 <Alloy>
 	<Collection src="cars"></Collection>
-	<View class="container">
-		<TableView id="table" dataCollection="cars" dataTransform="transform" dataFilter="filter">
-			<TableViewRow title="{title}" modelId="{id}" />
-		</TableView>
+	<View class="container" id="listContainer">
+		<Widget id="ptr" src="nl.fokkezb.pullToRefresh" onRelease="myRefresher">
+			<ListView id="table" >
+				<ListSection dataCollection="cars" dataTransform="transform" dataFilter="filter">
+					<ListItem title="{title}" modelId="{id}" />
+				</ListSection>
+			</ListView>
+		</Widget>
 	</View>
 </Alloy>

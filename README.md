@@ -26,6 +26,3 @@ A more detailed and complete example is outlined here [in my book on Appcelerato
 ---
 
 Licensed under the terms of the [MIT License](http://alco.mit-license.org)
-
-
-http://developer.appcelerator.com/question/178997/cursor-in-textfield-is-missing
