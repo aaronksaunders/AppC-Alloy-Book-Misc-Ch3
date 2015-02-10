@@ -11,6 +11,13 @@ Building Cross-Platform Apps using Titanium, Alloy, and Appcelerator Cloud Servi
 
 Additional details can be found in the chapter of the book
 
+This is a branch of the original code that adds additional features
+* Shows the example using a basic ListView
+* Demonstrates how to do a bulk delete of a collection
+* Shows the use of the `Collection.create` for adding items to collection and saving in one call
+* Solution works and is tested on IOS & Android
+* Pull to Refresh support on IOS and Android using two plugins [nl.fokkezb.pullToRefresh](https://github.com/fokkezb/nl.fokkezb.pullToRefresh) and [Ti.SwipeRefreshLayout](https://github.com/iskugor/Ti.SwipeRefreshLayout)
+
 ----------
 
 Book is available at 
