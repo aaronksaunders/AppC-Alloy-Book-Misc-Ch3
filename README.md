@@ -11,6 +11,8 @@ Building Cross-Platform Apps using Titanium, Alloy, and Appcelerator Cloud Servi
 
 Additional details can be found in the chapter of the book
 
+There is also a "PullToRefresh" Branch of this project which shows the integration of [Pull to Refresh Widget  - nl.fokkezb.pullToRefresh](http://gitt.io/component/nl.fokkezb.pullToRefresh)
+
 ----------
 
 Book is available at 
