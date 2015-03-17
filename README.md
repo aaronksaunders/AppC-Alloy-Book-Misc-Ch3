@@ -24,7 +24,11 @@ Book is available at
 
 A more detailed and complete example is outlined here [in my book on Appcelerator Alloy Development](https://github.com/aaronksaunders/AppC-Alloy-Book)
 
-
+____
+#### Videos
+Appcelerator Alloy Simple TableView Mobile App: https://youtu.be/Sz_V5HAqroU via @YouTube
+Intro To Titanium Studio and Your First Appcelerator Alloy HelloWorld App: https://youtu.be/EBFbkM5eM6w via @YouTube
+____
 
 
 ##### This code utilizes the Cross-Platform Application Template, additional information is available here -  [AlloyAppTemplate](https://github.com/ricardoalcocer/AlloyAppTemplate)
